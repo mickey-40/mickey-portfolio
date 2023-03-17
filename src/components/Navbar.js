@@ -21,12 +21,12 @@ function Navbar() {
       </div>
       <div className='links'>
         <div></div>
-        <FontAwesomeIcon icon={faHouse} />
-        <Link to="/">Home</Link>
-        <FontAwesomeIcon icon={faFolder} />
-        <Link to="/projects">Projects</Link>
-        <FontAwesomeIcon icon={faAtom} />
-        <Link to="/experience">Experience</Link>
+        
+        <Link to="/"><FontAwesomeIcon icon={faHouse} /> Home</Link>
+        
+        <Link to="/projects"><FontAwesomeIcon icon={faFolder} /> Projects</Link>
+        
+        <Link to="/experience"><FontAwesomeIcon icon={faAtom} /> Experience</Link>
       </div>
     </div>
   )
