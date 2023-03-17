@@ -8,7 +8,7 @@ function Navbar() {
   const[expandNavbar, setExpandNavbar] = useState(false);
 
   const location = useLocation()
-
+//Use so the menu retracks
   useEffect(()=>{
     setExpandNavbar(false)
   }, [location])
