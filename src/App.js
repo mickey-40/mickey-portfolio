@@ -1,11 +1,11 @@
 import './App.css'
 import { Routes, Route} from 'react-router-dom'
-import Home from './pages/Home';
-import Projects from './pages/Projects';
-import Experience from './pages/Experience';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import ProjectDisplay from './pages/ProjectDisplay';
+import Home from './pages/Home.js';
+import Projects from './pages/Projects.js';
+import Experience from './pages/Experience.js';
+import Navbar from './components/Navbar.js';
+import Footer from './components/Footer.js';
+import ProjectDisplay from './pages/ProjectDisplay.js';
 
 function App() {
   return (
